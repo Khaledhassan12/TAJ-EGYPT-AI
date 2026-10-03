@@ -1,0 +1,158 @@
+<resources>
+    <string name="app_name">TAJ EGY</string>
+    <string name="tagline">عميل الذكاء الاصطناعي الشامل</string>
+    
+    <!-- Navigation & Titles -->
+    <string name="nav_chat">المحادثة</string>
+    <string name="nav_conversations">المحادثات</string>
+    <string name="nav_providers">المزودين والنماذج</string>
+    <string name="nav_mcp">خوادم MCP</string>
+    <string name="nav_skills">المهارات</string>
+    <string name="nav_prompts">مكتبة الأوامر</string>
+    <string name="nav_settings">الإعدادات</string>
+    
+    <!-- Chat Screen -->
+    <string name="chat_placeholder">اسأل أي حاجة، اكتب كود، أو حلل بيانات…</string>
+    <string name="chat_send">إرسال</string>
+    <string name="chat_stop">إيقاف</string>
+    <string name="chat_regenerate">إعادة التوليد</string>
+    <string name="chat_retry_with">إعادة المحاولة بنموذج تاني</string>
+    <string name="chat_copy">نسخ النص</string>
+    <string name="chat_edit">تعديل وإعادة إرسال</string>
+    <string name="chat_delete">حذف الرسالة</string>
+    <string name="chat_share">مشاركة</string>
+    <string name="chat_attach">إرفاق ملف أو صورة</string>
+    <string name="chat_prompts">استخدام قالب أمر</string>
+    <string name="chat_tools">الأدوات وMCP</string>
+    <string name="chat_new_conversation">محادثة جديدة</string>
+    <string name="chat_search_hint">بحث في الرسائل…</string>
+    <string name="chat_empty_title">عايز تستكشف إيه النهاردة؟</string>
+    <string name="chat_empty_subtitle">اختر أي مزود ذكاء اصطناعي، اضبط النماذج بتاعتك، أو شغل أدوات ذكية.</string>
+    
+    <!-- AI Status & Activity -->
+    <string name="status_thinking">جاري التفكير…</string>
+    <string name="status_generating">جاري توليد الرد…</string>
+    <string name="status_tool_running">جاري تنفيذ الأداة…</string>
+    <string name="status_completed">تم بنجاح</string>
+    <string name="status_cancelled">تم الإيقاف بواسطة المستخدم</string>
+    <string name="status_error">حصل خطأ</string>
+    <string name="activity_card_title">نشاط الذكاء الاصطناعي والإحصائيات</string>
+    <string name="meta_provider">المزود</string>
+    <string name="meta_model">النموذج</string>
+    <string name="meta_latency">زمن الاستجابة</string>
+    <string name="meta_tokens">الرموز (Tokens)</string>
+    <string name="meta_input_tokens">المدخلات</string>
+    <string name="meta_output_tokens">المخرجات</string>
+    <string name="meta_total_tokens">الإجمالي</string>
+    <string name="meta_cost">التكلفة التقريبية</string>
+    <string name="meta_tool_calls">استدعاءات الأدوات</string>
+    
+    <!-- Providers -->
+    <string name="provider_add">إضافة مزود</string>
+    <string name="provider_edit">تعديل المزود</string>
+    <string name="provider_detect">اكتشاف المزود تلقائياً</string>
+    <string name="provider_detect_desc">اكتب رابط الـ API عشان تكتشف نوع المزود والنقاط المتاحة بأمان.</string>
+    <string name="provider_name">اسم المزود</string>
+    <string name="provider_type">نوع المزود</string>
+    <string name="provider_api_key">مفتاح الـ API</string>
+    <string name="provider_base_url">الرابط الأساسي (Base URL)</string>
+    <string name="provider_model">النموذج الافتراضي</string>
+    <string name="provider_test">اختبار الاتصال</string>
+    <string name="provider_testing">جاري اختبار الاتصال…</string>
+    <string name="provider_test_success">تم الاتصال بنجاح!</string>
+    <string name="provider_test_failed">فشل الاتصال</string>
+    <string name="provider_latency">زمن الذهاب والعودة</string>
+    <string name="provider_empty">مفيش مزودين متسجلين لسه</string>
+    <string name="provider_empty_desc">ضيف مفتاح API لـ OpenAI أو Anthropic أو Gemini أو DeepSeek أو أي مزود مخصص.</string>
+    <string name="provider_saved">تم حفظ المزود بأمان</string>
+    <string name="provider_default_badge">افتراضي</string>
+    
+    <!-- MCP -->
+    <string name="mcp_title">بروتوكول سياق النموذج (MCP)</string>
+    <string name="mcp_add">إضافة خادم MCP</string>
+    <string name="mcp_import_json">استيراد ملف MCP JSON</string>
+    <string name="mcp_server_name">اسم الخادم</string>
+    <string name="mcp_server_url">رابط الخادم (SSE / HTTP)</string>
+    <string name="mcp_transport">طريقة النقل</string>
+    <string name="mcp_tools_count">%d أداة متاحة</string>
+    <string name="mcp_empty">مفيش خوادم MCP متصلة</string>
+    <string name="mcp_empty_desc">اربط خادم أدوات خارجي عشان تدي الذكاء الاصطناعي قدرات إضافية قوية.</string>
+    <string name="mcp_approve_tool">الموافقة على تنفيذ الأداة</string>
+    <string name="mcp_tool_approved">تمت الموافقة على الأداة</string>
+    <string name="mcp_tool_rejected">تم رفض الأداة</string>
+    
+    <!-- Skills -->
+    <string name="skills_title">مهارات الذكاء الاصطناعي</string>
+    <string name="skills_add_manual">إضافة مهارة يدوياً</string>
+    <string name="skills_import_zip">استيراد ملف مهارة ZIP</string>
+    <string name="skills_empty">مفيش مهارات مثبتة</string>
+    <string name="skills_empty_desc">المهارات بتوفر إرشادات وسياق متخصص لما تحتاجها في المحادثة.</string>
+    <string name="skills_recommended">مهارات مقترحة</string>
+    <string name="skills_priority">الأولوية</string>
+    <string name="skills_tags">الكلمات الدلالية والإشارات</string>
+    <string name="skills_instructions">التعليمات / ماركداون</string>
+    <string name="skills_zip_safe_extracted">تم فحص ملف الـ ZIP بأمان وتثبيت المهارة</string>
+    
+    <!-- Prompts -->
+    <string name="prompts_title">مكتبة الأوامر</string>
+    <string name="prompts_add">إنشاء أمر جديد</string>
+    <string name="prompts_empty">مفيش أوامر محفوظة</string>
+    <string name="prompts_empty_desc">احفظ قوالب جاهزة مع متغيرات زي {{task}} و {{language}}.</string>
+    <string name="prompts_apply">استخدام الأمر</string>
+    <string name="prompts_fill_vars">ملء المتغيرات</string>
+    
+    <!-- Conversations Management -->
+    <string name="conversations_title">المحادثات</string>
+    <string name="conversations_empty">مفيش محادثات سابقة</string>
+    <string name="conversations_empty_desc">ابدأ محادثة جديدة دلوقتي.</string>
+    <string name="conversations_pin">تثبيت في الأعلى</string>
+    <string name="conversations_unpin">إلغاء التثبيت</string>
+    <string name="conversations_archive">أرشفة</string>
+    <string name="conversations_unarchive">إلغاء الأرشفة</string>
+    <string name="conversations_export">تصدير JSON</string>
+    <string name="conversations_delete">حذف</string>
+    <string name="conversations_rename">إعادة التسمية</string>
+    
+    <!-- Settings -->
+    <string name="settings_general">عام</string>
+    <string name="settings_language">اللغة</string>
+    <string name="settings_theme">المظهر</string>
+    <string name="settings_theme_dark">الوضع الليلي</string>
+    <string name="settings_theme_light">الوضع الفاتح</string>
+    <string name="settings_theme_system">افتراضي النظام</string>
+    <string name="settings_dynamic_color">ألوان ماتيريال يو الديناميكية</string>
+    <string name="settings_animation_mode">حركة ظهور النص المتدفق</string>
+    <string name="settings_reduce_motion">تقليل الحركة</string>
+    <string name="settings_chat">المحادثة وعرض النصوص</string>
+    <string name="settings_stream_responses">تدفق الردود تدريجياً</string>
+    <string name="settings_syntax_highlight">تلوين الكود البرمجي</string>
+    <string name="settings_line_numbers">أرقام أسطر الكود</string>
+    <string name="settings_security">الأمان والخصوصية</string>
+    <string name="settings_clear_credentials">مسح مفاتيح الـ API المحفوظة</string>
+    <string name="settings_clear_data">مسح جميع المحادثات</string>
+    <string name="settings_keystore_active">محمي بتقنية Android Keystore AES-256</string>
+    <string name="settings_performance">الأداء</string>
+    <string name="settings_low_memory_mode">وضع استهلاك الذاكرة المنخفض</string>
+    <string name="settings_about">عن TAJ EGY</string>
+    <string name="settings_version">الإصدار 1.0.0</string>
+    
+    <!-- Code block actions -->
+    <string name="code_copy">نسخ</string>
+    <string name="code_copied">تم النسخ إلى الحافظة!</string>
+    <string name="code_wrap">التفاف</string>
+    <string name="code_expand">توسيع</string>
+    <string name="code_collapse">طي</string>
+    
+    <!-- Errors & Alerts -->
+    <string name="error_no_provider">من فضلك ضيف واضبط مزود ذكاء اصطناعي الأول.</string>
+    <string name="error_network">تعذر الاتصال بالشبكة. يرجى التأكد من اتصال الإنترنت.</string>
+    <string name="error_auth">فشل المصادقة. تأكد من صحة مفتاح الـ API.</string>
+    <string name="error_rate_limit">وصلت للحد الأقصى للطلبات. انتظر لحظات وحاول تاني.</string>
+    <string name="error_server">خطأ في خادم المزود. يرجى المحاولة بعد قليل.</string>
+    <string name="error_unknown">حدث خطأ غير متوقع.</string>
+    <string name="action_save">حفظ</string>
+    <string name="action_cancel">إلغاء</string>
+    <string name="action_close">إغلاق</string>
+    <string name="action_delete">حذف</string>
+    <string name="action_confirm">تأكيد</string>
+</resources>

@@ -1,0 +1,46 @@
+# Built application files
+*.apk
+*.aar
+*.aab
+*.ap_
+
+# Files for the ART/Dalvik VM
+*.dex
+
+# Java class files
+*.class
+
+# Generated files
+bin/
+gen/
+out/
+build/
+app/build/
+
+# Gradle files
+.gradle/
+buildOutput/
+
+# Local configuration files
+local.properties
+.env
+
+# Android Studio & IntelliJ IDEA files
+*.iml
+.idea/
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+.kotlin/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Keystore files (do not commit upload/signing keys)
+*.jks
+*.keystore
+!debug.keystore

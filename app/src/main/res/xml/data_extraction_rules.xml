@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data-extraction-rules>
+    <cloud-backup>
+        <!-- Exclude hardware-encrypted vault so it is not transferred to new hardware where KeyStore key is absent -->
+        <exclude domain="sharedpref" path="taj_egy_vault.xml"/>
+    </cloud-backup>
+    <device-transfer>
+        <exclude domain="sharedpref" path="taj_egy_vault.xml"/>
+    </device-transfer>
+</data-extraction-rules>
